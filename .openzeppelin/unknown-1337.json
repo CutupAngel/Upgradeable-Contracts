@@ -1,0 +1,281 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+    "txHash": "0x2328c79d835ac55c5c8cedca3d055123d5f0e8bcfb3d79ccbe74895dcb668a27",
+    "deployTransaction": {
+      "hash": "0x2328c79d835ac55c5c8cedca3d055123d5f0e8bcfb3d79ccbe74895dcb668a27",
+      "type": 2,
+      "accessList": [],
+      "blockHash": "0x0334f7fbdb5c44cebe5ee5ed53254e13ed1942ed155347cc2878d16bbc1923d9",
+      "blockNumber": 15,
+      "transactionIndex": 0,
+      "confirmations": 1,
+      "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x08b913c4"
+      },
+      "maxPriorityFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "maxFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x0b0a3d04"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x0762b4"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 14,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0x1f3b32059de7fc1bf5d65980c58b762037da886ffb4a518a639549c35344595c",
+      "s": "0x5c47c66f26b8c6639cc16c8aed2d93591c336c6b0a0785df720a1b84e39ba51a",
+      "v": 0,
+      "creates": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+      "chainId": 1337
+    }
+  },
+  "proxies": [
+    {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0x0da2d08e7c21b1485f237f5be5b48a96eb29b7b6a981e529b909ebbdda46db59",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0x7f49fa651012990cceb91ed75ba55adcc034290e86e21cb4b1124d60771c6dce",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0x4b2defcb7b355c9b1e96602a5b80384a4d9f1cbf5c266c2c4924c488cccc5793",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+      "txHash": "0x48f3ec74a090f0b17fdd961f91aaaca422f47433632804f73a1b23c21850a391",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "txHash": "0xf6ad8212af382731dcd07b67f0e16c3c37de3e7c62cd79d58277b6a091a66ae1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+      "txHash": "0x6ec96a2ae208866fcea9f3a28af363ecf22eb56a8fc0ad9de52c10f1108e9b84",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0x03f18489c4d528155bb81890d9f2babc856cf6bd26ce735c3076a77cf16e0bf5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0B306BF915C4d645ff596e518fAf3F9669b97016",
+      "txHash": "0x0ad2ced0e7fd1d0b3e5a68cc65dd6e8fbc0cff7e72a3fd8366f7e3cd0ab0cac4",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "ac3242d59183389e7894ea5cb5116cf17412968c2526886f08f047efb401ad6a": {
+      "address": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82",
+      "txHash": "0xeeab76256a33bd867523722de01bf9cd630b25b07e5d54ae68adad7a8fbb97da",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+          },
+          {
+            "contract": "Pausable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/security/Pausable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "DefiAVGPrice",
+            "label": "_prices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/DefiAVGPrice.sol:15"
+          },
+          {
+            "contract": "DefiAVGPrice",
+            "label": "_sumOfPrice",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPrice.sol:16"
+          },
+          {
+            "contract": "DefiAVGPrice",
+            "label": "_sumOfDay",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPrice.sol:17"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    },
+    "df637f978f55c069fa208012c9568888fb030ba91cdfabad3fef1334119bdb8b": {
+      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
+      "txHash": "0x540fa1dd5fe14240ca0daf32417dfc8e1ca1119997262a0b1265968b174a3667",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+          },
+          {
+            "contract": "Pausable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/security/Pausable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_prices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/DefiAVGPriceV3.sol:15"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_sumOfPrice",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV3.sol:16"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_sumOfDay",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV3.sol:17"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    },
+    "b816282f0bacc6bb880d1faed2b30335ef29645a8505ee9c07a4e5b6eb6318c8": {
+      "address": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
+      "txHash": "0xbcdadbdd8c0a9ea390e353c2a555b8a832470d6513a88b3904aa2af4a642a6eb",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+          },
+          {
+            "contract": "Pausable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/security/Pausable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_prices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/DefiAVGPriceV3.sol:15"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_sumOfPrice",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV3.sol:16"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_sumOfDay",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV3.sol:17"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    }
+  }
+}
