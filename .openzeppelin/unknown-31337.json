@@ -52,6 +52,11 @@
       "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
       "txHash": "0xbae8117c3e26206af86deb6d7dd5391cf48bc80b34bfdb9ea63c6f2a7430bcbd",
       "kind": "transparent"
+    },
+    {
+      "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+      "txHash": "0xeae39bce7682c38c0678fb79c6be4a3948ee3475854d221690744c323312b28a",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -186,6 +191,198 @@
     "b816282f0bacc6bb880d1faed2b30335ef29645a8505ee9c07a4e5b6eb6318c8": {
       "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
       "txHash": "0xfa210aefbf7b9f5413f856bfc4a7401b7788cdeef44a792b74ec273fbcfdce3e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+          },
+          {
+            "contract": "Pausable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/security/Pausable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_prices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/DefiAVGPriceV3.sol:18"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_sumOfPrice",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV3.sol:19"
+          },
+          {
+            "contract": "DefiAVGPriceV3",
+            "label": "_sumOfDay",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV3.sol:20"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    },
+    "dc62ab623a5a72675b2208695a3b79a4c160b47cfa26ebdb64c20f334d56fc56": {
+      "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+      "txHash": "0x435857ea7781d91ff7db0da27e9b531f431eef1553a54f6eb88ac8c4df3f7670",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+          },
+          {
+            "contract": "Pausable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/security/Pausable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "DefiAVGPrice",
+            "label": "_prices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/DefiAVGPrice.sol:18"
+          },
+          {
+            "contract": "DefiAVGPrice",
+            "label": "_sumOfPrice",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPrice.sol:19"
+          },
+          {
+            "contract": "DefiAVGPrice",
+            "label": "_sumOfDay",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPrice.sol:20"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    },
+    "e148dc0a82214d6fc3ca9ce6df3d6baf3e81a366e60c09d8bf9248cd84faade9": {
+      "address": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+      "txHash": "0xf6a0ad48d1b67e0d30489d37109f650891200fd2d2ac7bb191aa428c4073d8fc",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+          },
+          {
+            "contract": "Pausable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/security/Pausable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "DefiAVGPriceV2",
+            "label": "_prices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/DefiAVGPriceV2.sol:18"
+          },
+          {
+            "contract": "DefiAVGPriceV2",
+            "label": "_sumOfPrice",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV2.sol:19"
+          },
+          {
+            "contract": "DefiAVGPriceV2",
+            "label": "_sumOfDay",
+            "type": "t_uint256",
+            "src": "contracts/DefiAVGPriceV2.sol:20"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    },
+    "f428a2e7019b595837531f79f66e8be63e42e3ca00aa59eca6bbcedc869de40a": {
+      "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+      "txHash": "0x413e611629d2fb9bf6be5699d79f3057490933d9aa80f06f0dcd9e9d9614d015",
       "layout": {
         "storage": [
           {

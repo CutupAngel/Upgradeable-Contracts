@@ -23,10 +23,7 @@ contract DefiAVGPriceV2 is Ownable, Pausable, DateTime, Initializable {
      * Initialize values
      * @dev Initialize the values
      */
-    constructor() {
-        _sumOfPrice = 0;
-        _sumOfDay = 0;
-    }
+    constructor() {}
 
     /**
      * Set Price ( available for only onwer )
