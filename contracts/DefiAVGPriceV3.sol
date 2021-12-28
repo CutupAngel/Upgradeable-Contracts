@@ -5,14 +5,14 @@ import "hardhat/console.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "@openzeppelin/contracts/proxy/utils/Initializable.sol";
 
 import "./DateTime.sol";
+import "./DefiAVGInterface.sol";
 
 /// @author Angel Michael
 /// @title Coding challenge
 /// @dev Contract for calculate the avearge price of token - upgradeable, pausable
-contract DefiAVGPriceV3 is Ownable, Pausable, DateTime, Initializable {
+contract DefiAVGPriceV3 is DefiAVGInterface, Ownable, Pausable, DateTime {
     using SafeMath for uint256;
 
     mapping(uint256 => uint256) private _prices;
@@ -56,32 +56,24 @@ contract DefiAVGPriceV3 is Ownable, Pausable, DateTime, Initializable {
      * @dev Get Price
      * @return price of the specific date
      */
-    function getPrice(uint256 _date) external view returns (uint256) {
-        return _prices[_date.div(3600)];
-    }
+    function getPrice(uint256 _date) external view returns (uint256) {}
 
     /**
      * Get AVG Price
      * @dev Get Average price from Aug to Sep
      * @return average price from Aug to Sep
      */
-    function getAVGPrice() external view returns (uint256) {
-        return _sumOfPrice.div(_sumOfPrice);
-    }
+    function getAVGPrice() external view returns (uint256) {}
 
     /**
      * Pause to set price ( available for only owner )
      * @dev Pause to set the price
      */
-    function pause() public onlyOwner {
-        _pause();
-    }
+    function pause() public onlyOwner {}
 
     /**
      * Unpause to set price ( available for only owner )
      * @dev Unpause to set the price
      */
-    function unpause() public onlyOwner {
-        _unpause();
-    }
+    function unpause() public onlyOwner {}
 }

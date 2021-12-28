@@ -5,14 +5,14 @@ import "hardhat/console.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "@openzeppelin/contracts/proxy/utils/Initializable.sol";
 
 import "./DateTime.sol";
+import "./DefiAVGInterface.sol";
 
 /// @author Angel Michael
 /// @title Coding challenge
 /// @dev Contract for calculate the avearge price of token - upgradeable, pausable
-contract DefiAVGPrice is Ownable, Pausable, DateTime, Initializable {
+contract DefiAVGPrice is DefiAVGInterface, Ownable, Pausable, DateTime {
     using SafeMath for uint256;
 
     mapping(uint256 => uint256) private _prices;
@@ -39,7 +39,13 @@ contract DefiAVGPrice is Ownable, Pausable, DateTime, Initializable {
      * @dev Get Price
      * @return price of the specific date
      */
-    function getPrice(uint256 _date) external view returns (uint256) {
+    function getPrice(uint256 _date)
+        external
+        view
+        virtual
+        override
+        returns (uint256)
+    {
         return _prices[_date.div(3600)];
     }
 
@@ -48,7 +54,7 @@ contract DefiAVGPrice is Ownable, Pausable, DateTime, Initializable {
      * @dev Get Average price from Aug to Sep
      * @return average price from Aug to Sep
      */
-    function getAVGPrice() external view returns (uint256) {
+    function getAVGPrice() external view virtual override returns (uint256) {
         return _sumOfPrice.div(_sumOfPrice);
     }
 
